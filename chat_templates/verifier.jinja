@@ -1,0 +1,6 @@
+{# --- Simple Plain-Text Chat Template (no control tokens, no tools) --- #}
+
+{%- for message in messages %}
+{{ message['content'] }}
+
+{%- endfor %}
